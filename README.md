@@ -17,11 +17,13 @@ Wireless Fidelity atau yang lebih awam kita sebut wifi adalah suatu teknologi ya
 A. ESP32 Wi-Fi Modes dan Wifi-Scan
 1. Pada ESP32, terdapat 3 mode akses untuk Wifi, yaitu WIFI_STA (station mode : ESP32 sebagai client yang terkoneksi ke access point), WIFI_AP (access point mode : ESP32 berperan sebagai access point), WIFI_STA_AP (access point and station : ESP32 dapat terkoneksi dengan access point yang lain).
 
-![Capture1](https://user-images.githubusercontent.com/118172386/210178127-4e424f5e-f0ef-4a64-bbd1-69b420476937.JPG)
+![1](https://user-images.githubusercontent.com/121251478/210208191-d7c361d8-3839-4489-a354-da88ccf101db.jpeg)
+
 
 2. Buka Arduino IDE dan upload script program berikut ke ESP32 untuk melakukan scan jaringan Wi-Fi.
 3. Buka serial monitor dan dokumentasikan outputnya.
-![A1](https://user-images.githubusercontent.com/118172386/210178151-549f9114-5ad6-4218-91c9-a1a9529177ac.png)
+
+![doc1](https://user-images.githubusercontent.com/121251478/210208203-d503211f-4fe4-410d-bb8d-2d9e1d5f6cd0.png)
 
 
 4. Buatlah flow chart program diatas.
@@ -30,21 +32,26 @@ B. Menghubungkan ESP32 dengan Jaringan Wi-Fi
 1. Buatlah program seperti script dibawah ini, kemudian upload program tersebut ke ESP32.
 2. Buka serial monitor, kemudian dokumentasikan outputnya.
 
-![B1](https://user-images.githubusercontent.com/118172386/210178164-b4ae3ea0-b2a1-4965-b08b-2c76b560fedc.png)
+![doc2](https://user-images.githubusercontent.com/121251478/210208223-75967f38-367e-4d8a-bd27-98bc21cd38cf.png)
+
 
 3. Buatlah flow chart program diatas
 
 C. Menghubungkan Kembali (Re-connect) ESP32 dengan Jaringan Wi-Fi
 1. Buatlah program seperti script dibawah ini, kemudian upload program tersebut ke ESP32.
 2. Buka serial monitor, kemudian matikan paket data sebentar hingga koneksi ESP32 dengan jaringna Wi-Fi terputus. Setelah itu, nyalakan lagi paket data. Dokumentasikan proses yang terjadi.
-![C1](https://user-images.githubusercontent.com/118172386/210178172-40d6839b-ba7a-41c5-ac41-429e5fcb1d60.png)
+
+![doc3](https://user-images.githubusercontent.com/121251478/210208236-89263869-5041-4736-95cb-7287f41d373c.png)
+
 
 3. Buatlah flow chart program diatas.
 
 D. Mengganti Hostname ESP32
 1. Buatlah program seperti script dibawah ini, kemudian upload program tersebut ke ESP32.
 2. Buka serial monitor, kemudian aktifkan mode koneksi Wi-Fi pada SmartPhone atau Laptop. Lakukan scan dan lihat daftar jaringan Wi-Fi yang tersedia. Dokumentasikan hasil keluarannya.
-![D1](https://user-images.githubusercontent.com/118172386/210178175-9bbebc35-8a71-45fb-88d9-ce1c309f0eb2.png)
+
+![doc4](https://user-images.githubusercontent.com/121251478/210208245-bc39f930-b082-449d-a614-ccbb7861a0af.png)
+
 
 
 3. Buatlah flow chart program diatas.
@@ -58,7 +65,9 @@ Install library tersebut secara manual dengan cara menyalin folder hasil ekstrak
 2. Buatlah script program seperti berikut ini.
 3. Upload program di atas. Kemudian buka serial monitor untuk mengetahui IP Address ESP32.
 4. Akses IP Address ESP32 pada browser laptop. Dokumentasikan hasilnya dan buatlah flow chart dari program tersebut.
-![E1](https://user-images.githubusercontent.com/118172386/210178183-51b24b1c-93e3-4aeb-851a-44efce440fa5.png)
+
+![doc5](https://user-images.githubusercontent.com/121251478/210208268-b72f12a1-ef56-4396-8132-51f46347cae3.png)
+
 
 Hasil yang muncul pada web seperti gambar dibawah, dikarenakan sensor rusak maka suhu tidak muncul atau terdeteksi.
-![hasil E1 sensor rusak](https://user-images.githubusercontent.com/118172386/210178187-2c451271-2c1a-4fef-874a-b92c2eed03b3.png)
+![doc6](https://user-images.githubusercontent.com/121251478/210208294-8a846d16-847a-4624-8da7-c35a59aa0cc4.png)
